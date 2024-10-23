@@ -6,7 +6,7 @@
 
 # Supports
   - Currently Only Chrome, Why? Because It has a decent tts, on any platform
-  - Will add firefox support too, soon
+  - Supposed Support for firefox now, it works, couldn't fully test tho
 
 # Requires
  - Turning on dev mode
