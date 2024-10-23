@@ -1,14 +1,14 @@
 import type { Manifest } from "./manifest.type";
-const version = 0.1;
+const version = 0.2;
 export default {
   manifest_version: 3,
   name: "LightNovelWorld-Tools",
   version: String(version),
   description: "A set of tools to brush up LNW",
-  background: {
-    service_worker: "./background.js",
-    type: "module",
-  },
+  // background: {
+  //   service_worker: "./background.js",
+  //   type: "module",
+  // },
   content_scripts: [
     {
       matches: ["https://www.lightnovelworld.com/novel/*/chapter-*"],
